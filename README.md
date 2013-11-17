@@ -197,6 +197,8 @@ If a color is created using any of the HSLA functions or parsers, it will keep t
 It is possible for you to add your own functions to the color object.  For instance, this function will tell you if its better to use black or white on a given background color.
 
 
+
+
 ```javascript
 // method taken from https://gist.github.com/960189
 jQuery.Color.fn.contrastColor = function() {
